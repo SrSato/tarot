@@ -1,0 +1,9 @@
+baraja = [
+    {
+        "nombre":"",
+        "palo":"",
+        "valor":""
+    },
+    
+    
+];
