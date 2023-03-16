@@ -314,8 +314,8 @@ const tarot = [
         "futuro girada": "Si continúa evitando los cambios importantes, puede experimentar una crisis personal y emocional.",
         "si/no enderezada": "Sí.",
         "si/no girada": "No."
-      },
-      {
+    },
+    {
         "nombre": "El Mundo",
         "palo": "Arcanos Mayores",
         "valor": 21,
@@ -329,7 +329,54 @@ const tarot = [
         "futuro girada": "Podrías experimentar retrasos en la finalización de un proyecto o metas importantes en el futuro cercano.",
         "si/no enderezada": "Sí, tus esfuerzos serán coronados con éxito y te espera una época de plenitud y logros.",
         "si/no girada": "No, es posible que experimentes dificultades para completar proyectos o metas importantes en el futuro cercano."
-      },
+    },
+    {
+        "nombre": "As de Bastos",
+        "palo": "Bastos",
+        "valor": "As",
+        "rasgos enderezada": "Nuevos comienzos, oportunidades, creatividad, entusiasmo",
+        "rasgos girada": "Falta de dirección, falta de motivación, oportunidades perdidas",
+        "pasado enderezada": "Ha tenido éxito en nuevos proyectos y emprendimientos",
+        "pasado girada": "Ha experimentado dificultades para comenzar o completar nuevos proyectos",
+        "presente enderezada": "Una nueva oportunidad o proyecto creativo está en el horizonte",
+        "presente girada": "Puede estar luchando para encontrar una dirección en su vida o trabajo actual",
+        "futuro enderezada": "Un nuevo proyecto o empresa será exitoso y gratificante",
+        "futuro girada": "Puede experimentar dificultades para comenzar o completar nuevos proyectos en el futuro cercano",
+        "si/no enderezada": "Sí",
+        "si/no girada": "No"
+    },
+    {
+        "nombre": "Dos de Bastos",
+        "palo": "Bastos",
+        "valor": 2,
+        "rasgos enderezada": "Toma de decisiones, planificación, descubrimiento de nuevas oportunidades",
+        "rasgos girada": "Miedo a tomar decisiones, falta de planificación, dificultades para encontrar nuevas oportunidades",
+        "pasado enderezada": "Toma de decisiones acertadas, planificación efectiva, oportunidades aprovechadas",
+        "pasado girada": "Malas decisiones, falta de planificación, oportunidades perdidas",
+        "presente enderezada": "Consideración de opciones, planificación cuidadosa, preparación para nuevas oportunidades",
+        "presente girada": "Indecisión, falta de planificación, oportunidades perdidas o desaprovechadas",
+        "futuro enderezada": "Toma de decisiones acertadas, éxito en proyectos, descubrimiento de nuevas oportunidades",
+        "futuro girada": "Malas decisiones, fracaso en proyectos, dificultades para encontrar nuevas oportunidades",
+        "si/no enderezada": "Sí",
+        "si/no girada": "Probablemente no"
+    },
+          
+    {
+        "nombre": "As de Espadas",
+        "palo": "Espadas",
+        "valor": "As",
+        "rasgos enderezada": "Claridad mental, toma de decisiones, nuevas ideas, nuevos comienzos, victoria",
+        "rasgos girada": "Confusión mental, indecisión, retrasos, frustración, derrota",
+        "pasado enderezada": "Momento de claridad mental que te permitió tomar decisiones importantes y nuevas ideas que te llevaron al éxito.",
+        "pasado girada": "Confusión mental que te llevó a tomar decisiones equivocadas y a perder oportunidades importantes.",
+        "presente enderezada": "Tienes claridad mental y estás listo para tomar decisiones importantes que te llevarán a la victoria y nuevos comienzos.",
+        "presente girada": "Estás experimentando confusión mental y no estás seguro de qué decisiones tomar, lo que te lleva a retrasos y frustración.",
+        "futuro enderezada": "Tendrás una victoria importante y nuevos comienzos gracias a una decisión importante que tomarás con claridad mental.",
+        "futuro girada": "Experimentarás una derrota importante debido a una decisión equivocada tomada bajo confusión mental.",
+        "si/no enderezada": "Sí",
+        "si/no girada": "No"
+      }
+      
       
       
 ];
