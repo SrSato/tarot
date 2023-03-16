@@ -63,6 +63,38 @@ const tarot = [
         "si_no-":"Cautela, necesidad de amparo. NO.",
         "invertida":0
     },
+    {
+        "nombre":"El Emperador",
+        "palo":"arcano",
+        "valor":"4",
+        "rasgos":"Autoridad · Organización · Estabilidad · Protección · Razonamiento y lógica",
+        "rasgosInv":"Descontrol · Falta de estructura · Inseguridad · Abuso de poder · Impulsividad",
+        "pasado":"En el pasado has sido capaz de ejercer el control sobre tu vida y establecer una base sólida para tus objetivos futuros.",
+        "pasado-":"En el pasado has tenido dificultades para mantener el control o la estabilidad en tu vida. Este periódo de caos e incertidumbre te ha permitido aprender, crecer y mejorar en lo personal.",
+        "presente+":"Estás en un momento de tu vida en el que estás ejerciendo tu poder y liderazgo de manera efectiva, y estás estableciendo una base sólida para tus objetivos futuros.",
+        "presente-":"Puede haber desafíos en tu vida que están afectando tu capacidad para liderar efectivamente y establecer una base sólida para tus objetivos futuros. Es posible que necesites trabajar en tu capacidad para adaptarte al cambio y tomar decisiones más flexibles y equilibradas para superar estos desafíos.",
+        "futuro+":"Estás en un camino hacia el éxito y la estabilidad, y estás trabajando arduamente para asegurar tu futuro y establecer una base sólida para tus objetivos futuros.",
+        "futuro-":"Pueden aparecer desafíos en tu camino hacia el éxito y la estabilidad, y es posible que necesites trabajar en tu capacidad para adaptarte al cambio, tomar decisiones más flexibles y equilibradas, y establecer límites saludables en tus relaciones personales para superar estos desafíos.",
+        "si_no+":"Estás preparado para enfrentar los desafíos que se presenten. SI",
+        "si_no-":"Falta de control o imposibilidad. NO.",
+        "invertida":0
+    },
+    {
+        "nombre":"El Hierofante",
+        "palo":"arcano",
+        "valor":"5",
+        "rasgos":"Sabiduría y enseñanza · Espiritualidad · Autoridad (benevolente) · Tradición y conformidad · Aprobación social",
+        "rasgosInv":"Rebeldía · Falta de rumbo · Desconexión espiritual · Rechazo de lo impuesto · Necesidad de novedad",
+        "pasado":"Has trabajado duro para mantener tus valores y creencias a lo largo del tiempo, y has logrado encontrar un equilibrio y una armonía en tu vida.",
+        "pasado-":"Has enfrentado desafíos para encontrar la estabilidad y la seguridad en tu vida, y has tenido dificultades para mantener tus valores y creencias a lo largo del tiempo.",
+        "presente+":"Estás trabajando para encontrar una mayor armonía y equilibrio en tu vida, y estás buscando formas de mantener tus valores y creencias a lo largo del tiempo. También puede indicar la necesidad de seguir las normas establecidas y las tradiciones, lo que puede limitar tu capacidad para explorar nuevos caminos y tomar decisiones independientes.",
+        "presente-":"Estás experimentando una fase de cambio y transición en tu vida, y necesitas encontrar nuevas formas de expresarte y dar significado a tu vida.",
+        "futuro+":"Estás en un camino de crecimiento y evolución personal, y estás en el camino correcto para alcanzar tus objetivos a largo plazo. Puede ser una señal de que estás buscando un mentor o un guía para ayudarte a avanzar.",
+        "futuro-":"Es posible que necesites tomarte un tiempo para reflexionar y explorar tus valores y creencias centrales. Puede ser útil buscar la ayuda de un mentor o un guía espiritual para encontrar tu camino y avanzar hacia tus metas a largo plazo",
+        "si_no+":"Estás recibiendo orientación o ayuda de una fuente confiable. Si",
+        "si_no-":"Necesitas guia y consejo externo antes de poder afrontar esto. Por ahora NO.",
+        "invertida":0
+    },
    
 ];
 
