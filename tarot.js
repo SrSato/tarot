@@ -121,21 +121,21 @@ const tarot = [
         "si/no_girada": "No"
       },
       {
-        "nombre": "La Justicia",
+        "nombre": "La Fuerza",
         "palo": "Arcanos Mayores",
         "valor": 8,
-        "rasgos_enderezada": "Verdad, equidad, objetividad, razón, justicia, integridad, equilibrio",
-        "rasgos_girada": "Desigualdad, deshonestidad, injusticia, falta de equilibrio, engaño, deshonestidad, falta de integridad",
-        "pasado_enderezada": "El consultante pudo haber vivido un evento importante donde se sintió apoyado y comprendido",
-        "pasado_girada": "El consultante puede haber tenido un evento donde fue engañado o perjudicado",
-        "presente_enderezada": "El consultante está enfrentando un problema legal o situación que requiere de justicia y equidad",
-        "presente_girada": "El consultante puede estar viviendo una situación injusta o engañosa, o está siendo deshonesto en sus acciones",
-        "futuro_enderezada": "El consultante puede esperar una resolución justa y equitativa a sus problemas, o que se le presentará una oportunidad de ser justo y equitativo",
-        "futuro_girada": "El consultante puede esperar una resolución injusta o engañosa a sus problemas, o que necesitará hacer frente a las consecuencias de sus acciones deshonestas",
-        "si/no_enderezada": "La respuesta es probablemente sí, siempre y cuando se sigan los procedimientos adecuados y se actúe con integridad",
-        "si/no_girada": "La respuesta es probablemente no, ya que puede haber engaño o deshonestidad en la situación actual"
-      },
-      {
+        "rasgos_enderezada": "Fortaleza, coraje, dominio propio, autocontrol, confianza en sí mismo",
+        "rasgos_girada": "Falta de control, debilidad, falta de autoconfianza, inseguridad, falta de voluntad",
+        "pasado_enderezada": "Superación de obstáculos, demostración de fuerza, logro de metas importantes",
+        "pasado_girada": "Incapacidad para superar obstáculos, falta de voluntad para alcanzar metas, falta de confianza en uno mismo",
+        "presente_enderezada": "Capacidad para afrontar desafíos con fortaleza y coraje, autocontrol, confianza en sí mismo",
+        "presente_girada": "Falta de coraje para afrontar desafíos, falta de autocontrol, inseguridad, miedo",
+        "futuro_enderezada": "Superación de desafíos, logro de metas importantes, demostración de coraje y fortaleza",
+        "futuro_girada": "Falta de capacidad para afrontar desafíos, fracaso en lograr metas importantes, falta de coraje y fortaleza",
+        "si/no_enderezada": "Sí",
+        "si/no_girada": "No"
+    },
+    {
         "nombre": "El Ermitaño",
         "palo": "Arcanos mayores",
         "valor": 9,
@@ -165,20 +165,21 @@ const tarot = [
         "si/no_enderezada": "Respuesta incierta, pero hay una posibilidad de cambio positivo",
         "si/no_girada": "Respuesta incierta, pero hay una posibilidad de cambio negativo"
     },      
+    
     {
-        "nombre": "La Fuerza",
+        "nombre": "La Justicia",
         "palo": "Arcanos Mayores",
         "valor": 11,
-        "rasgos_enderezada": "Fortaleza, coraje, dominio propio, autocontrol, confianza en sí mismo",
-        "rasgos_girada": "Falta de control, debilidad, falta de autoconfianza, inseguridad, falta de voluntad",
-        "pasado_enderezada": "Superación de obstáculos, demostración de fuerza, logro de metas importantes",
-        "pasado_girada": "Incapacidad para superar obstáculos, falta de voluntad para alcanzar metas, falta de confianza en uno mismo",
-        "presente_enderezada": "Capacidad para afrontar desafíos con fortaleza y coraje, autocontrol, confianza en sí mismo",
-        "presente_girada": "Falta de coraje para afrontar desafíos, falta de autocontrol, inseguridad, miedo",
-        "futuro_enderezada": "Superación de desafíos, logro de metas importantes, demostración de coraje y fortaleza",
-        "futuro_girada": "Falta de capacidad para afrontar desafíos, fracaso en lograr metas importantes, falta de coraje y fortaleza",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "rasgos_enderezada": "Verdad, equidad, objetividad, razón, justicia, integridad, equilibrio",
+        "rasgos_girada": "Desigualdad, deshonestidad, injusticia, falta de equilibrio, engaño, deshonestidad, falta de integridad",
+        "pasado_enderezada": "El consultante pudo haber vivido un evento importante donde se sintió apoyado y comprendido",
+        "pasado_girada": "El consultante puede haber tenido un evento donde fue engañado o perjudicado",
+        "presente_enderezada": "El consultante está enfrentando un problema legal o situación que requiere de justicia y equidad",
+        "presente_girada": "El consultante puede estar viviendo una situación injusta o engañosa, o está siendo deshonesto en sus acciones",
+        "futuro_enderezada": "El consultante puede esperar una resolución justa y equitativa a sus problemas, o que se le presentará una oportunidad de ser justo y equitativo",
+        "futuro_girada": "El consultante puede esperar una resolución injusta o engañosa a sus problemas, o que necesitará hacer frente a las consecuencias de sus acciones deshonestas",
+        "si/no_enderezada": "La respuesta es probablemente sí, siempre y cuando se sigan los procedimientos adecuados y se actúe con integridad",
+        "si/no_girada": "La respuesta es probablemente no, ya que puede haber engaño o deshonestidad en la situación actual"
     },
     {
         "nombre": "El Colgado",
@@ -333,7 +334,7 @@ const tarot = [
     {
         "nombre": "As de Bastos",
         "palo": "Bastos",
-        "valor": "As",
+        "valor": 1,
         "rasgos_enderezada": "Nuevos comienzos, oportunidades, creatividad, entusiasmo",
         "rasgos_girada": "Falta de dirección, falta de motivación, oportunidades perdidas",
         "pasado_enderezada": "Ha tenido éxito en nuevos proyectos y emprendimientos",
@@ -483,7 +484,7 @@ const tarot = [
     {
         "nombre": "Sota de Bastos",
         "palo": "Bastos",
-        "valor": "Sota",
+        "valor": 11,
         "rasgos_enderezada": "Persona joven, apasionada y enérgica. Es una líder natural, valiente y decidida. Está dispuesta a asumir riesgos y a luchar por lo que quiere. Tiene ideas creativas y una gran determinación para llevarlas a cabo.",
         "rasgos_girada": "Puede representar a una persona inmadura o irresponsable, que se deja llevar por sus impulsos y no piensa en las consecuencias de sus acciones. Puede ser arrogante y conflictiva, y tender a imponer sus ideas a los demás sin escuchar sus opiniones.",
         "pasado_enderezada": "Has sido valiente y decidido en el pasado, y has asumido riesgos para alcanzar tus metas. Tus ideas creativas te han llevado a lograr éxitos, y has sido una líder natural para los demás.",
@@ -498,7 +499,7 @@ const tarot = [
     {
         "nombre": "Caballero de Bastos",
         "palo": "Bastos",
-        "valor": "Caballero",
+        "valor": 12,
         "rasgos_enderezada": "Ambicioso, dinámico, entusiasta, seguro de sí mismo, emprendedor",
         "rasgos_girada": "Impulsivo, arrogante, malhumorado, imprudente, temerario",
         "pasado_enderezada": "Logró sus objetivos gracias a su determinación y energía. Empezó nuevos proyectos con pasión.",
@@ -513,7 +514,7 @@ const tarot = [
     {
         "nombre": "Reina de Bastos",
         "palo": "Bastos",
-        "valor": "Reina",
+        "valor": 13,
         "rasgos_enderezada": "Segura, creativa, apasionada, alegre, generosa.",
         "rasgos_girada": "Dominante, egocéntrica, manipuladora, insegura, agresiva.",
         "pasado_enderezada": "Ha sabido enfrentar desafíos con valentía y determinación. Ha tenido éxito en proyectos creativos. Ha sido generosa con su tiempo y recursos.",
@@ -528,7 +529,7 @@ const tarot = [
     {
         "nombre": "Rey de Bastos",
         "palo": "Bastos",
-        "valor": "Rey",
+        "valor": 14,
         "rasgos_enderezada": "Hombre moreno, honesto y justo, con gran energía y pasión. Es un líder nato, un hombre de acción y determinación, que inspira a los demás a seguirlo. Tiene una gran fuerza de voluntad y es muy ambicioso. Puede representar a un hombre de negocios, un político o un militar.",
         "rasgos_girada": "Puede representar a un hombre que abusa de su poder y autoridad, que es egoísta y arrogante, y que trata de imponer su voluntad a los demás. También puede indicar falta de energía y motivación, o una persona que no es confiable.",
         "pasado_enderezada": "Has tenido éxito en tus esfuerzos y has alcanzado una posición de liderazgo o autoridad. Has sido ambicioso y determinado, y has logrado tus metas con éxito.",
@@ -543,7 +544,7 @@ const tarot = [
     {
         "nombre": "As de Copas",
         "palo": "Copas",
-        "valor": "As",
+        "valor": 1,
         "rasgos_enderezada": "Inspiración, amor, nuevas oportunidades emocionales",
         "rasgos_girada": "Bloqueo emocional, falta de claridad, confusión",
         "pasado_enderezada": "Amor y felicidad en el pasado",
@@ -558,7 +559,7 @@ const tarot = [
     {
         "nombre": "Dos de copas",
         "palo": "Copas",
-        "valor": "Dos",
+        "valor": 2,
         "rasgos_enderezada": "Unión, amor, relaciones, armonía, equilibrio emocional.",
         "rasgos_girada": "Desacuerdo, desequilibrio, falta de armonía en las relaciones, problemas emocionales.",
         "pasado_enderezada": "Has experimentado la armonía en tus relaciones o has conocido a alguien que ha significado mucho para ti.",
@@ -573,7 +574,7 @@ const tarot = [
     {
         "nombre": "Tres de Copas",
         "palo": "Copas",
-        "valor": "3",
+        "valor": 3,
         "rasgos_enderezada": "Celebración, alegría, conexión emocional",
         "rasgos_girada": "Soledad, desconección, falta de armonía",
         "pasado_enderezada": "Momentos felices con amigos y seres queridos",
@@ -693,7 +694,7 @@ const tarot = [
     {
         "nombre": "Sota de Copas",
         "palo": "Copas",
-        "valor": "Sota",
+        "valor": 11,
         "rasgos_enderezada": "Sensibilidad, emociones, intuición, creatividad",
         "rasgos_girada": "Inmadurez emocional, influenciabilidad, exceso de emotividad",
         "pasado_enderezada": "Desarrollo de la sensibilidad, inicio de la exploración emocional",
@@ -708,7 +709,7 @@ const tarot = [
     {
         "nombre": "Caballero de Copas",
         "palo": "Copas",
-        "valor": "Caballero",
+        "valor": 12,
         "rasgos_enderezada": "Sensibilidad, romance, creatividad, compasión",
         "rasgos_girada": "Falta de iniciativa, soñador, manipulador emocional",
         "pasado_enderezada": "Búsqueda del amor y la felicidad, experiencias emocionales intensas",
@@ -723,7 +724,7 @@ const tarot = [
     {
         "nombre": "Reina de Copas",
         "palo": "Copas",
-        "valor": "Reina",
+        "valor": 13,
         "rasgos_enderezada": "Empatía, compasión, ternura, calidez",
         "rasgos_girada": "Manipulación emocional, susceptibilidad excesiva",
         "pasado_enderezada": "Emociones equilibradas, empatía hacia los demás, amor y apoyo",
@@ -738,7 +739,7 @@ const tarot = [
     {
         "nombre": "Rey de Copas",
         "palo": "Copas",
-        "valor": "Rey",
+        "valor": 14,
         "rasgos_enderezada": "Sensibilidad, compasión, empatía, intuición",
         "rasgos_girada": "Inestabilidad emocional, dependencia, manipulación",
         "pasado_enderezada": "Desarrollo emocional, autoconocimiento, relación amorosa exitosa",
@@ -753,7 +754,7 @@ const tarot = [
     {
         "nombre": "As de Espadas",
         "palo": "Espadas",
-        "valor": "As",
+        "valor": 1,
         "rasgos_enderezada": "Claridad mental, toma de decisiones, nuevas ideas, nuevos comienzos, victoria",
         "rasgos_girada": "Confusión mental, indecisión, retrasos, frustración, derrota",
         "pasado_enderezada": "Momento de claridad mental que te permitió tomar decisiones importantes y nuevas ideas que te llevaron al éxito.",
@@ -858,7 +859,7 @@ const tarot = [
     {
         "nombre": "Ocho de Espadas",
         "palo": "Espadas",
-        "valor": "Ocho",
+        "valor": 8,
         "rasgos_enderezada": "Sensación de estar atrapado, limitado o confinado, necesidad de buscar soluciones, explorar opciones",
         "rasgos_girada": "Sentirse liberado, encontrar soluciones, romper con las limitaciones, superar el miedo",
         "pasado_enderezada": "Sentimiento de limitación, necesidad de ser cuidadoso al tomar decisiones, posibles errores de juicio",
@@ -873,7 +874,7 @@ const tarot = [
     {
         "nombre": "Nueve de Espadas",
         "palo": "Espadas",
-        "valor": "Nueve",
+        "valor": 9,
         "rasgos_enderezada": "Preocupación, ansiedad, miedo, pesadillas",
         "rasgos_girada": "Obsesión, miedo irracional, parálisis",
         "pasado_enderezada": "Dificultades superadas, problemas resueltos, liberación de preocupaciones",
@@ -888,7 +889,7 @@ const tarot = [
     {
         "nombre": "Diez de Espadas",
         "palo": "Espadas",
-        "valor": "Diez",
+        "valor": 10,
         "rasgos_enderezada": "Finalización, liberación, conclusión de una etapa, transición",
         "rasgos_girada": "Dolor, trauma, sufrimiento, miedo al cambio",
         "pasado_enderezada": "Finalización de una etapa, liberación de una carga, transición hacia un nuevo comienzo",
@@ -903,7 +904,7 @@ const tarot = [
     {
         "nombre": "Sota de Espadas",
         "palo": "Espadas",
-        "valor": "Sota",
+        "valor": 11,
         "rasgos_enderezada": "Astucia, inteligencia, pensamiento rápido, juventud",
         "rasgos_girada": "Traición, engaño, manipulación, venganza",
         "pasado_enderezada": "Logros en la educación, éxito en proyectos intelectuales",
@@ -918,7 +919,7 @@ const tarot = [
     {
         "nombre": "Caballero de Espadas",
         "palo": "Espadas",
-        "valor": "Caballero",
+        "valor": 12,
         "rasgos_enderezada": "Fuerza, valor, inteligencia, coraje",
         "rasgos_girada": "Agresión, crueldad, falta de compasión",
         "pasado_enderezada": "Superación de obstáculos, triunfo, coraje para enfrentar problemas",
@@ -933,7 +934,7 @@ const tarot = [
     {
         "nombre": "Reina de Espadas",
         "palo": "Espadas",
-        "valor": "Reina",
+        "valor": 13,
         "rasgos_enderezada": "Poder mental, lógica, análisis, perceptividad",
         "rasgos_girada": "Falta de empatía, frialdad, crueldad emocional",
         "pasado_enderezada": "Pensamiento claro y objetivo, toma de decisiones racionales, superación de obstáculos mentales",
@@ -948,7 +949,7 @@ const tarot = [
     {
         "nombre": "Rey de Espadas",
         "palo": "Espadas",
-        "valor": "Rey",
+        "valor": 14,
         "rasgos_enderezada": "Inteligencia, objetividad, análisis, justicia",
         "rasgos_girada": "Crueldad, malicia, abuso de poder",
         "pasado_enderezada": "Toma de decisiones justas, uso de la razón, liderazgo efectivo",
@@ -963,7 +964,7 @@ const tarot = [
     {
         "nombre": "As de Oros",
         "palo": "Oros",
-        "valor": "As",
+        "valor": 1,
         "rasgos_enderezada": "Nuevo comienzo, éxito financiero, estabilidad, prosperidad",
         "rasgos_girada": "Falta de visión a largo plazo, avaricia, pérdida de oportunidades",
         "pasado_enderezada": "Logro de objetivos financieros, éxito en proyectos a largo plazo",
@@ -1113,7 +1114,7 @@ const tarot = [
     {
         "nombre": "Sota de Oros",
         "palo": "Oros",
-        "valor": "Sota",
+        "valor": 11,
         "rasgos_enderezada": "Habilidad, inteligencia, astucia, ambición, concentración",
         "rasgos_girada": "Falta de concentración, pereza, avaricia",
         "pasado_enderezada": "Éxito en los negocios, habilidades prácticas, enfoque en la carrera",
@@ -1128,7 +1129,7 @@ const tarot = [
     {
         "nombre": "Caballero de Oros",
         "palo": "Oros",
-        "valor": "Caballero",
+        "valor": 12,
         "rasgos_enderezada": "Ambición, enfoque, eficiencia, trabajo duro",
         "rasgos_girada": "Avaricia, falta de ética, deshonestidad",
         "pasado_enderezada": "Logro de metas, éxito financiero, enfoque en objetivos",
@@ -1143,7 +1144,7 @@ const tarot = [
     {
         "nombre": "Reina de Oros",
         "palo": "Oros",
-        "valor": "Reina",
+        "valor": 13,
         "rasgos_enderezada": "Práctica, generosa, cariñosa, fiable",
         "rasgos_girada": "Codicia, dependencia financiera, terquedad",
         "pasado_enderezada": "Uso práctico del dinero, inversión sabia, estabilidad financiera",
@@ -1158,7 +1159,7 @@ const tarot = [
     {
         "nombre": "Rey de Oros",
         "palo": "Oros",
-        "valor": "Rey",
+        "valor": 14,
         "rasgos_enderezada": "Honestidad, generosidad, seguridad financiera, éxito material",
         "rasgos_girada": "Avaricia, arrogancia, materialismo",
         "pasado_enderezada": "Estabilidad financiera, éxito en los negocios, honradez",
@@ -1169,10 +1170,7 @@ const tarot = [
         "futuro_girada": "Pérdida financiera, mala gestión empresarial, falta de ética",
         "si/no_enderezada": "Sí",
         "si/no_girada": "No"
-    }
-           
-    
-          
+    }         
 ];
 
 let baraja=tarot;
@@ -1191,7 +1189,7 @@ const barajar = (array) => {
 
 const sacaUna = (cartas) => {
     let elegida = cartas.pop();
-    elegida.invertida = Math.floor(Math.random() * 2);
+    elegida.girada = Math.floor(Math.random() * 2);
     
     return elegida
 }
@@ -1201,8 +1199,8 @@ barajar(baraja);
 let carta = sacaUna(baraja);
 
 console.log(carta.nombre)
-if(carta.invertida==1){
+if(carta.girada==1){
     console.log(carta.rasgos_girada)
 }else{
-    console.log(carta.rasgos)
+    console.log(carta.rasgos_enderezada)
 }
