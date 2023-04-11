@@ -1173,34 +1173,3 @@ const tarot = [
     }         
 ];
 
-let baraja=tarot;
-
-const barajar = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        const temp = array[i];
-
-        // Swap
-        array[i] = array[j];
-        array[j] = temp;
-    }
-    return array;
-};
-
-const sacaUna = (cartas) => {
-    let elegida = cartas.pop();
-    elegida.girada = Math.floor(Math.random() * 2);
-    
-    return elegida
-}
-
-
-barajar(baraja);
-let carta = sacaUna(baraja);
-
-console.log(carta.nombre)
-if(carta.girada==1){
-    console.log(carta.rasgos_girada)
-}else{
-    console.log(carta.rasgos_enderezada)
-}
