@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;            
+}
+
+#tapete{
+    height: 99vh;
+    width: 99vw;
+    border: 1px solid red;
+}
