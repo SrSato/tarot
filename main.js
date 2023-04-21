@@ -27,7 +27,7 @@ const pintaLectura = (lectura) =>{
     elemento = document.getElementsByClassName("lectura")[0];
     titulo = `<h3> Consulta de Sí o No: </h3>`;
     queSalio = `<p> Tu carta es ${lectura[0]} y viene ${lectura[1]}.</p>`;
-    queEs = `<p> Esta carta nos habla de ${lectura[2]} </p>`;
+    queEs = `<p> Rasgos sugeridos: ${lectura[2]} </p>`;
     queDice = `<p> Para esta tirada la carta nos dice... ${lectura[3]} </p>`;
     elemento.innerHTML = titulo + queSalio + queEs + queDice;
 }
