@@ -12,8 +12,13 @@
 }
 
 body{
-    background-color: rgb(109, 124, 109);   
-           
+    background-color: rgb(109, 124, 109);             
+}
+
+h1, h2, h3{
+    color: white;
+    text-align: center;
+    margin: 10px;
 }
 
 #tapete{
