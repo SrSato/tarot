@@ -11,9 +11,9 @@ const tarot = [
         "presente_girada":"Esfuerzo que no lleva a ningún sitio, falta de concrección. Se necesita replanteamiento y revisión del entorno (planes y gentes).",
         "futuro_enderezada":"Necesidad de movimiento. Pensar de forma diferente, abandonar lo antiguo. Maneras nuevas de conseguir objetivos.",
         "futuro_girada":"Momento volátil. Imprevistos, peligro de equivocaciones, recibir malos consejos y engaños. Relaciones temporales, falta de compromiso.",
-        "si/no_enderezada":"Optimismo, pueden venir decisiones importantes. Duda en positivo. Quizá sacar otra carta complementaría esta tirada.",
-        "si/no_girada":"Inconsciencia, no está todo sobre la mesa. Duda y advertencia. Saca otra carta, pero ten presente esta.",
-        
+        "si_no_enderezada":"Optimismo, pueden venir decisiones importantes. Duda en positivo. Quizá sacar otra carta complementaría esta tirada.",
+        "si_no_girada":"Inconsciencia, no está todo sobre la mesa. Duda y advertencia. Saca otra carta, pero ten presente esta.",
+        "ordinal":0
     },
     {
         "nombre":"El Mago",
@@ -27,8 +27,9 @@ const tarot = [
         "presente_girada":"Lo que sea que estás intentando o haciendo se verá retrasado. Algo se está haciendo mal por falta de comunicación.",
         "futuro_enderezada":"Mucho a ganar y mucho a perder. Las amistades y relaciones que hayas cultivado influirán, pero debes hacer tu parte de la manera más competente posible.",
         "futuro_girada":"Estancamiento y retrasos. Algo o alguien obstaculiza tus avances. Te corresponderá a tí desbloquear la situación.",
-        "si/no_enderezada":"Necesita tu acción y capacidad, SI.",
-        "si/no_girada":"No solo depende de tí o de tus habilidades, NO.",        
+        "si_no_enderezada":"Necesita tu acción y capacidad, SI.",
+        "si_no_girada":"No solo depende de tí o de tus habilidades, NO.",     
+        "ordinal":1   
     },
     {
         "nombre":"La Suma Sacerdotisa",
@@ -42,8 +43,9 @@ const tarot = [
         "presente_girada":"Desafios invisibles, desconocidos o con datos aún no revelados. Es bueno fiarse de la intuición ahora.",
         "futuro_enderezada":"Se está en el buen camino, vienen recompensas. Se ha de perseverar. Disciplina y motivación serán nuestras herramientas.",
         "futuro_girada":"Tiempo inestable o de bloqueos. Problemas mal planteados o de los que no sabemos todo. Pasividad, pérdida de poder. Necesidad de reevaluar la situación y a nosotros mismos. Probablemente se necesitará ayuda de otros.",
-        "si/no_enderezada":"Se necesita reflexión. Saca otra carta.",
-        "si/no_girada":"Se necesita reflexión. Saca otra carta.",       
+        "si_no_enderezada":"Se necesita reflexión. Saca otra carta.",
+        "si_no_girada":"Se necesita reflexión. Saca otra carta.",    
+        "ordinal":2   
     },
     {
         "nombre":"La Emperatriz",
@@ -57,8 +59,9 @@ const tarot = [
         "presente_girada":"Calma chicha. Es un momento para reflexionar y tomar aliento. Ojo con estancarse, acostumbrarse o permitir que se nos suban a las barbas.",
         "futuro_enderezada":"Si se cuidan, nuestros planes darán frutos. Es posible que aparezcan nuevas y mejores alternativas. Los cambios serán a mejor. Entre nuevo y viejo, escoge nuevo.",
         "futuro_girada":"Demasiado ruido y carga sobre nosotros. No deberemos cargar con errores ajenos. Necesidad de distanciarse de lo material.",
-        "si/no_enderezada":"Buen camino y empuje. SI",
-        "si/no_girada":"Cautela, necesidad de amparo. NO.",        
+        "si_no_enderezada":"Buen camino y empuje. SI",
+        "si_no_girada":"Cautela, necesidad de amparo. NO.",  
+        "ordinal":3      
     },
     {
         "nombre":"El Emperador",
@@ -72,8 +75,9 @@ const tarot = [
         "presente_girada":"Puede haber desafíos en tu vida que están afectando tu capacidad para liderar efectivamente y establecer una base sólida para tus objetivos futuros. Es posible que necesites trabajar en tu capacidad para adaptarte al cambio y tomar decisiones más flexibles y equilibradas para superar estos desafíos.",
         "futuro_enderezada":"Estás en un camino hacia el éxito y la estabilidad, y estás trabajando arduamente para asegurar tu futuro y establecer una base sólida para tus objetivos futuros.",
         "futuro_girada":"Pueden aparecer desafíos en tu camino hacia el éxito y la estabilidad, y es posible que necesites trabajar en tu capacidad para adaptarte al cambio, tomar decisiones más flexibles y equilibradas, y establecer límites saludables en tus relaciones personales para superar estos desafíos.",
-        "si/no_enderezada":"Estás preparado para enfrentar los desafíos que se presenten. SI",
-        "si/no_girada":"Falta de control o imposibilidad. NO.",        
+        "si_no_enderezada":"Estás preparado para enfrentar los desafíos que se presenten. SI",
+        "si_no_girada":"Falta de control o imposibilidad. NO.",    
+        "ordinal":4    
     },
     {
         "nombre":"El Hierofante",
@@ -87,8 +91,9 @@ const tarot = [
         "presente_girada":"Estás experimentando una fase de cambio y transición en tu vida, y necesitas encontrar nuevas formas de expresarte y dar significado a tu vida.",
         "futuro_enderezada":"Estás en un camino de crecimiento y evolución personal, y estás en el camino correcto para alcanzar tus objetivos a largo plazo. Puede ser una señal de que estás buscando un mentor o un guía para ayudarte a avanzar.",
         "futuro_girada":"Es posible que necesites tomarte un tiempo para reflexionar y explorar tus valores y creencias centrales. Puede ser útil buscar la ayuda de un mentor o un guía espiritual para encontrar tu camino y avanzar hacia tus metas a largo plazo",
-        "si/no_enderezada":"Estás recibiendo orientación o ayuda de una fuente confiable. Si",
-        "si/no_girada":"Necesitas guia y consejo externo antes de poder afrontar esto. Por ahora NO.",        
+        "si_no_enderezada":"Estás recibiendo orientación o ayuda de una fuente confiable. Si",
+        "si_no_girada":"Necesitas guia y consejo externo antes de poder afrontar esto. Por ahora NO.",    
+        "ordinal":5    
     },
     {
         "nombre": "Los Enamorados",
@@ -102,8 +107,9 @@ const tarot = [
         "presente_girada": "Estás luchando con una decisión difícil y sientes conflicto interno. Ten cuidado de no ceder a las tentaciones momentáneas.",
         "futuro_enderezada": "Una elección importante te espera en el futuro cercano, pero si sigues tu corazón y tomas decisiones basadas en el amor verdadero, alcanzarás la armonía y el compromiso.",
         "futuro_girada": "Te enfrentarás a decisiones difíciles en el futuro cercano y es posible que te sientas tentado por opciones que no son las mejores para ti. Asegúrate de sopesar cuidadosamente todas tus opciones antes de decidir.",
-        "si/no_enderezada": "Sí, si sigues tu corazón y tomas decisiones basadas en el amor verdadero y la armonía.",
-        "si/no_girada": "No, aún no estás listo para tomar la decisión que estás considerando o tal vez hay una elección mejor que no has considerado aún."
+        "si_no_enderezada": "Sí, si sigues tu corazón y tomas decisiones basadas en el amor verdadero y la armonía.",
+        "si_no_girada": "No, aún no estás listo para tomar la decisión que estás considerando o tal vez hay una elección mejor que no has considerado aún.",
+        "ordinal":6
     },
     {
         "nombre": "El Carro",
@@ -117,8 +123,9 @@ const tarot = [
         "presente_girada": "Falta de control en el presente, falta de dirección, obstáculos en el camino",
         "futuro_enderezada": "Éxito futuro, dirección clara, logro de metas",
         "futuro_girada": "Fracaso futuro, falta de dirección, obstáculos en el camino",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":7
       },
       {
         "nombre": "La Fuerza",
@@ -132,8 +139,9 @@ const tarot = [
         "presente_girada": "Falta de coraje para afrontar desafíos, falta de autocontrol, inseguridad, miedo",
         "futuro_enderezada": "Superación de desafíos, logro de metas importantes, demostración de coraje y fortaleza",
         "futuro_girada": "Falta de capacidad para afrontar desafíos, fracaso en lograr metas importantes, falta de coraje y fortaleza",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":8
     },
     {
         "nombre": "El Ermitaño",
@@ -147,8 +155,9 @@ const tarot = [
         "presente_girada": "Te sientes solo y aislado, incapaz de encontrar la orientación adecuada en la vida, desconectado de tus valores internos.",
         "futuro_enderezada": "Necesitarás buscar respuestas internas y sabiduría para tomar decisiones importantes en el futuro. Confía en tus propios instintos y guía interior.",
         "futuro_girada": "Tendrás dificultades para encontrar el camino correcto en la vida y es posible que te sientas abrumado por la soledad y el aislamiento.",
-        "si/no_enderezada": "Esta carta indica la necesidad de tomar un tiempo para la reflexión y buscar la sabiduría interior antes de tomar una decisión importante. La respuesta puede ser sí, siempre y cuando confíes en tu propio juicio.",
-        "si/no_girada": "Esta carta puede indicar un período de soledad y desconexión emocional que puede dificultar la toma de decisiones. La respuesta puede ser no, a menos que tomes el tiempo necesario para conectarte contigo mismo y encontrar tu propia guía interna."
+        "si_no_enderezada": "Esta carta indica la necesidad de tomar un tiempo para la reflexión y buscar la sabiduría interior antes de tomar una decisión importante. La respuesta puede ser sí, siempre y cuando confíes en tu propio juicio.",
+        "si_no_girada": "Esta carta puede indicar un período de soledad y desconexión emocional que puede dificultar la toma de decisiones. La respuesta puede ser no, a menos que tomes el tiempo necesario para conectarte contigo mismo y encontrar tu propia guía interna.",
+        "ordinal":9
     },
     {
         "nombre": "La Rueda de la Fortuna",
@@ -162,8 +171,9 @@ const tarot = [
         "presente_girada": "Cambio negativo, oportunidades perdidas, obstáculos, mala suerte",
         "futuro_enderezada": "Cambio positivo, evolución, buen destino, suerte",
         "futuro_girada": "Cambio negativo, falta de control, obstáculos, destino inevitable",
-        "si/no_enderezada": "Respuesta incierta, pero hay una posibilidad de cambio positivo",
-        "si/no_girada": "Respuesta incierta, pero hay una posibilidad de cambio negativo"
+        "si_no_enderezada": "Respuesta incierta, pero hay una posibilidad de cambio positivo",
+        "si_no_girada": "Respuesta incierta, pero hay una posibilidad de cambio negativo",
+        "ordinal":10
     },      
     
     {
@@ -178,8 +188,9 @@ const tarot = [
         "presente_girada": "El consultante puede estar viviendo una situación injusta o engañosa, o está siendo deshonesto en sus acciones",
         "futuro_enderezada": "El consultante puede esperar una resolución justa y equitativa a sus problemas, o que se le presentará una oportunidad de ser justo y equitativo",
         "futuro_girada": "El consultante puede esperar una resolución injusta o engañosa a sus problemas, o que necesitará hacer frente a las consecuencias de sus acciones deshonestas",
-        "si/no_enderezada": "La respuesta es probablemente sí, siempre y cuando se sigan los procedimientos adecuados y se actúe con integridad",
-        "si/no_girada": "La respuesta es probablemente no, ya que puede haber engaño o deshonestidad en la situación actual"
+        "si_no_enderezada": "La respuesta es probablemente sí, siempre y cuando se sigan los procedimientos adecuados y se actúe con integridad",
+        "si_no_girada": "La respuesta es probablemente no, ya que puede haber engaño o deshonestidad en la situación actual",
+        "ordinal":11
     },
     {
         "nombre": "El Colgado",
@@ -193,8 +204,9 @@ const tarot = [
         "presente_girada": "Estás en un momento en el que necesitas un cambio de perspectiva y dejar de ser egoísta para avanzar",
         "futuro_enderezada": "En el futuro, tendrás que tomar decisiones difíciles y hacer sacrificios para alcanzar tus metas",
         "futuro_girada": "Si no haces cambios importantes en tu vida, te quedarás estancado en el futuro",
-        "si/no_enderezada": "La respuesta es sí, pero necesitas estar dispuesto a hacer sacrificios",
-        "si/no_girada": "La respuesta es no, pero necesitas cambiar tu perspectiva y dejar de ser egoísta para avanzar"
+        "si_no_enderezada": "La respuesta es sí, pero necesitas estar dispuesto a hacer sacrificios",
+        "si_no_girada": "La respuesta es no, pero necesitas cambiar tu perspectiva y dejar de ser egoísta para avanzar",
+        "ordinal":12
     },
     {
         "nombre": "La Muerte",
@@ -208,8 +220,9 @@ const tarot = [
         "presente_girada": "una resistencia al cambio y miedo a enfrentar lo que está por venir, lo que lleva a estancamiento",
         "futuro_enderezada": "un cambio importante se avecina, una transformación que llevará a la persona a un nuevo capítulo en su vida",
         "futuro_girada": "una resistencia al cambio y miedo a dejar ir lo que ya no sirve, lo que llevará a estancamiento en el futuro",
-        "si/no_enderezada": "La respuesta puede ser sí, pero es importante estar preparado para los cambios y transformaciones que vendrán",
-        "si/no_girada": "La respuesta puede ser no debido a la resistencia al cambio y el miedo al fin"
+        "si_no_enderezada": "La respuesta puede ser sí, pero es importante estar preparado para los cambios y transformaciones que vendrán",
+        "si_no_girada": "La respuesta puede ser no debido a la resistencia al cambio y el miedo al fin",
+        "ordinal":13
     },
     {
         "nombre": "La Templanza",
@@ -223,8 +236,9 @@ const tarot = [
         "presente_girada": "Puedes estar experimentando desequilibrio emocional y falta de adaptación a las circunstancias actuales",
         "futuro_enderezada": "Te espera un futuro de armonía, equilibrio y paciencia, serás capaz de adaptarte a los cambios que se presenten",
         "futuro_girada": "Deberás prestar atención a posibles desequilibrios emocionales y trabajar en tu capacidad de adaptación a los cambios",
-        "si/no_enderezada": "La respuesta es sí, siempre y cuando mantengas un equilibrio emocional y estés dispuesto a adaptarte a las circunstancias",
-        "si/no_girada": "La respuesta puede ser no si no logras mantener un equilibrio emocional y adaptarte a las circunstancias"
+        "si_no_enderezada": "La respuesta es sí, siempre y cuando mantengas un equilibrio emocional y estés dispuesto a adaptarte a las circunstancias",
+        "si_no_girada": "La respuesta puede ser no si no logras mantener un equilibrio emocional y adaptarte a las circunstancias",
+        "ordinal":14
     },
     {
         "nombre": "El Diablo",
@@ -238,8 +252,9 @@ const tarot = [
         "presente_girada": "Es posible liberarse de situaciones tentadoras o adictivas en el presente",
         "futuro_enderezada": "Habrá situaciones que generen tentación o adicción, es necesario estar alerta",
         "futuro_girada": "Será posible superar situaciones tentadoras o adictivas en el futuro",
-        "si/no_enderezada": "Respuesta negativa, indica posibilidad de caer en tentaciones o adicciones",
-        "si/no_girada": "Respuesta positiva, indica posibilidad de liberación y superación de tentaciones o adicciones"
+        "si_no_enderezada": "Respuesta negativa, indica posibilidad de caer en tentaciones o adicciones",
+        "si_no_girada": "Respuesta positiva, indica posibilidad de liberación y superación de tentaciones o adicciones",
+        "ordinal":15
     },
     {
         "nombre": "La Torre",
@@ -253,8 +268,9 @@ const tarot = [
         "presente_girada": "Estás tratando de resistir al cambio y aferrarte a estructuras que ya no funcionan.",
         "futuro_enderezada": "Debes estar preparado para grandes cambios y una destrucción de estructuras anticuadas para avanzar en tu camino.",
         "futuro_girada": "Debes estar preparado para grandes cambios, pero estás renunciando a tomar medidas para hacer frente a ellos.",
-        "si/no_enderezada": "No, se acerca una gran interrupción en tu vida que necesitas abordar.",
-        "si/no_girada": "Sí, estás tratando de evitar un cambio inevitable que necesita suceder."
+        "si_no_enderezada": "No, se acerca una gran interrupción en tu vida que necesitas abordar.",
+        "si_no_girada": "Sí, estás tratando de evitar un cambio inevitable que necesita suceder.",
+        "ordinal":16
     },
     {
         "nombre": "La Estrella",
@@ -268,8 +284,9 @@ const tarot = [
         "presente_girada": "Desilusión, obstáculos que impiden avanzar, falta de inspiración y fe en el futuro.",
         "futuro_enderezada": "Superación de obstáculos, inspiración y renovación que permiten alcanzar los objetivos y realizar los sueños. Éxito, optimismo y fe en el futuro.",
         "futuro_girada": "Falta de fe en uno mismo y en el futuro, desilusión y obstáculos que impiden avanzar en el camino hacia los objetivos.",
-        "si/no_enderezada": "Sí, es una carta de esperanza y optimismo.",
-        "si/no_girada": "No, hay obstáculos y desilusión que impiden avanzar en el camino."
+        "si_no_enderezada": "Sí, es una carta de esperanza y optimismo.",
+        "si_no_girada": "No, hay obstáculos y desilusión que impiden avanzar en el camino.",
+        "ordinal":17
     },
     {
         "nombre": "La Luna",
@@ -283,8 +300,9 @@ const tarot = [
         "presente_girada": "Confusión y engaños en el presente que te impiden tomar decisiones adecuadas y pueden generar ansiedad e inseguridad.",
         "futuro_enderezada": "Descubrimiento de nuevos conocimientos y una mayor conexión con lo místico. Confía en tu intuición y creatividad para tomar decisiones acertadas.",
         "futuro_girada": "Pérdida de confianza en tus propias capacidades y mayor confusión y ansiedad en el futuro.",
-        "si/no_enderezada": "Sí, siempre que confíes en tu intuición y creatividad para tomar la decisión correcta.",
-        "si/no_girada": "No, hay engaños y confusión que impiden tomar una decisión clara y acertada."
+        "si_no_enderezada": "Sí, siempre que confíes en tu intuición y creatividad para tomar la decisión correcta.",
+        "si_no_girada": "No, hay engaños y confusión que impiden tomar una decisión clara y acertada.",
+        "ordinal":18
     },
     {
         "nombre": "El Sol",
@@ -298,8 +316,9 @@ const tarot = [
         "presente_girada": "En el presente puedes estar pasando por un momento difícil, en el que te cuesta encontrar la felicidad y la motivación",
         "futuro_enderezada": "El Sol indica que en el futuro habrá éxito y realización en tus proyectos. Serás capaz de superar los obstáculos y avanzar con seguridad hacia tus metas",
         "futuro_girada": "Puedes estar pasando por un momento de confusión y desorientación en el que no sabes qué camino tomar.",
-        "si/no_enderezada": "Sí, definitivamente",
-        "si/no_girada": "Puede que no sea el momento adecuado, necesitas más claridad y energía"
+        "si_no_enderezada": "Sí, definitivamente",
+        "si_no_girada": "Puede que no sea el momento adecuado, necesitas más claridad y energía",
+        "ordinal":19
     },
     {
         "nombre": "El Juicio",
@@ -313,8 +332,9 @@ const tarot = [
         "presente_girada": "Puede estar experimentando miedo y resistencia al cambio en su vida, lo que le impide avanzar.",
         "futuro_enderezada": "Experimentará una renovación personal y espiritual. Se producirán cambios importantes y positivos en su vida.",
         "futuro_girada": "Si continúa evitando los cambios importantes, puede experimentar una crisis personal y emocional.",
-        "si/no_enderezada": "Sí.",
-        "si/no_girada": "No."
+        "si_no_enderezada": "Sí.",
+        "si_no_girada": "No.",
+        "ordinal":20
     },
     {
         "nombre": "El Mundo",
@@ -328,8 +348,9 @@ const tarot = [
         "presente_girada": "Te sientes estancado en tu vida actual, incapaz de avanzar o completar proyectos.",
         "futuro_enderezada": "Te espera una época de logros y realización personal, y podrías estar en camino de completar un proyecto importante.",
         "futuro_girada": "Podrías experimentar retrasos en la finalización de un proyecto o metas importantes en el futuro cercano.",
-        "si/no_enderezada": "Sí, tus esfuerzos serán coronados con éxito y te espera una época de plenitud y logros.",
-        "si/no_girada": "No, es posible que experimentes dificultades para completar proyectos o metas importantes en el futuro cercano."
+        "si_no_enderezada": "Sí, tus esfuerzos serán coronados con éxito y te espera una época de plenitud y logros.",
+        "si_no_girada": "No, es posible que experimentes dificultades para completar proyectos o metas importantes en el futuro cercano.",
+        "ordinal":21
     },
     {
         "nombre": "As de Bastos",
@@ -343,8 +364,9 @@ const tarot = [
         "presente_girada": "Puede estar luchando para encontrar una dirección en su vida o trabajo actual",
         "futuro_enderezada": "Un nuevo proyecto o empresa será exitoso y gratificante",
         "futuro_girada": "Puede experimentar dificultades para comenzar o completar nuevos proyectos en el futuro cercano",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":22
     },
     {
         "nombre": "Dos de Bastos",
@@ -358,8 +380,9 @@ const tarot = [
         "presente_girada": "Indecisión, falta de planificación, oportunidades perdidas o desaprovechadas",
         "futuro_enderezada": "Toma de decisiones acertadas, éxito en proyectos, descubrimiento de nuevas oportunidades",
         "futuro_girada": "Malas decisiones, fracaso en proyectos, dificultades para encontrar nuevas oportunidades",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "Probablemente no"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "Probablemente no",
+        "ordinal":23
     },
     {
         "nombre": "Tres de Bastos",
@@ -373,8 +396,9 @@ const tarot = [
         "presente_girada": "puede haber falta de claridad o enfoque en tus objetivos, posibles retrasos",
         "futuro_enderezada": "lograrás el éxito y el progreso a largo plazo que estás buscando",
         "futuro_girada": "puede haber retrasos o desafíos en el camino hacia el éxito a largo plazo",
-        "si/no_enderezada": "sí, siempre y cuando tengas una visión clara y estés preparado para tomar medidas audaces",
-        "si/no_girada": "puede haber demasiada indecisión o falta de enfoque para lograr el éxito que estás buscando"
+        "si_no_enderezada": "sí, siempre y cuando tengas una visión clara y estés preparado para tomar medidas audaces",
+        "si_no_girada": "puede haber demasiada indecisión o falta de enfoque para lograr el éxito que estás buscando",
+        "ordinal":24
     },
     {
         "nombre": "Cuatro de Bastos",
@@ -388,8 +412,9 @@ const tarot = [
         "presente_girada": "Hay interferencias que impiden tu armonía, puede haber discusiones o conflictos",
         "futuro_enderezada": "Tendrás éxito en lo que te propongas, encontrarás la armonía y la celebración en tu vida",
         "futuro_girada": "Habrá retrasos en tus planes, es posible que debas reorganizar tus proyectos y reevaluar tus metas",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":25
     },
     {
         "nombre": "Cinco de Bastos",
@@ -403,8 +428,9 @@ const tarot = [
         "presente_girada": "Evitando conflictos o resolviéndolos en el presente",
         "futuro_enderezada": "Conflictos y competencias futuras",
         "futuro_girada": "Resolución de conflictos futuros",
-        "si/no_enderezada": "No, hay competencia o conflicto involucrado",
-        "si/no_girada": "Sí, se puede evitar o resolver la competencia o conflicto"
+        "si_no_enderezada": "No, hay competencia o conflicto involucrado",
+        "si_no_girada": "Sí, se puede evitar o resolver la competencia o conflicto",
+        "ordinal":26
     },
     {
         "nombre": "Seis de Bastos",
@@ -418,8 +444,9 @@ const tarot = [
         "presente_girada": "Puedes estar luchando por el reconocimiento o el éxito. Puedes sentirte envidioso de los demás o tener una autoconfianza exagerada que te está llevando a tomar malas decisiones.",
         "futuro_enderezada": "Tendrás éxito en tus proyectos y serás reconocido por tus habilidades y liderazgo. Tu autoconfianza y orgullo estarán en su punto más alto.",
         "futuro_girada": "Puedes enfrentar una derrota o humillación pública que afectará a tu autoconfianza y reputación. Deberás ser prudente en tus decisiones y evitar el exceso de confianza.",
-        "si/no_enderezada": "Sí, es una carta de éxito y reconocimiento.",
-        "si/no_girada": "No, puedes estar enfrentando una derrota o humillación pública que afectará a tu autoconfianza y reputación."
+        "si_no_enderezada": "Sí, es una carta de éxito y reconocimiento.",
+        "si_no_girada": "No, puedes estar enfrentando una derrota o humillación pública que afectará a tu autoconfianza y reputación.",
+        "ordinal":27
     },
     {
         "nombre": "Siete de bastos",
@@ -433,8 +460,9 @@ const tarot = [
         "presente_girada": "Estás luchando por tus objetivos, pero te estás sintiendo desanimado y con falta de energía. Puedes estar experimentando una defensa inadecuada.",
         "futuro_enderezada": "Tendrás que defender tus intereses y posición con determinación y perseverancia. Si mantienes la fortaleza, lograrás tus objetivos.",
         "futuro_girada": "Puede que tengas dificultades para defender tus intereses y que experimentes una sensación de desesperación y pérdida de confianza en ti mismo. Necesitarás buscar apoyo y encontrar una manera de recuperar la confianza en ti mismo.",
-        "si/no_enderezada": "Sí, debes luchar y defender tus intereses.",
-        "si/no_girada": "Puede que necesites replantear tu estrategia y encontrar una nueva manera de defender tus intereses."
+        "si_no_enderezada": "Sí, debes luchar y defender tus intereses.",
+        "si_no_girada": "Puede que necesites replantear tu estrategia y encontrar una nueva manera de defender tus intereses.",
+        "ordinal":28
     },
     {
         "nombre": "Ocho de Bastos",
@@ -448,8 +476,9 @@ const tarot = [
         "presente_girada": "Retrasos, obstáculos, falta de progreso, comunicaciones perdidas o retrasadas",
         "futuro_enderezada": "Acción rápida y progreso, éxito en proyectos y metas, noticias inesperadas",
         "futuro_girada": "Falta de progreso, retrasos o dificultades para lograr metas, comunicaciones perdidas o retrasadas",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "Probablemente sí"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "Probablemente sí",
+        "ordinal":29
     },
     {
         "nombre": "Nueve de Bastos",
@@ -463,8 +492,9 @@ const tarot = [
         "presente_girada": "Te sientes abrumado y agotado por las demandas de la vida",
         "futuro_enderezada": "Lograrás superar los obstáculos y alcanzar tus metas",
         "futuro_girada": "La adversidad seguirá obstaculizando tu camino hacia el éxito",
-        "si/no_enderezada": "Sí, si estás dispuesto a trabajar duro y afrontar los desafíos",
-        "si/no_girada": "No, estás demasiado cansado o desmotivado para enfrentar los desafíos"
+        "si_no_enderezada": "Sí, si estás dispuesto a trabajar duro y afrontar los desafíos",
+        "si_no_girada": "No, estás demasiado cansado o desmotivado para enfrentar los desafíos",
+        "ordinal":30
     },
     {
         "nombre": "Diez de Bastos",
@@ -478,8 +508,9 @@ const tarot = [
         "presente_girada": "Siente que no puede más, se siente abrumado por las responsabilidades y no encuentra la fuerza para seguir adelante.",
         "futuro_enderezada": "Se vislumbra una etapa de finalización de proyectos y éxito, aunque todavía tendrá que esforzarse para lograrlo.",
         "futuro_girada": "Puede haber retrasos en la finalización de proyectos debido a la sobrecarga de trabajo y responsabilidades, pueden aparecer problemas de salud debido al estrés y el agotamiento.",
-        "si/no_enderezada": "Sí, pero con mucho esfuerzo y dedicación.",
-        "si/no_girada": "No, no hay fuerzas suficientes para lograr lo que se busca."
+        "si_no_enderezada": "Sí, pero con mucho esfuerzo y dedicación.",
+        "si_no_girada": "No, no hay fuerzas suficientes para lograr lo que se busca.",
+        "ordinal":31
     },
     {
         "nombre": "Sota de Bastos",
@@ -493,8 +524,9 @@ const tarot = [
         "presente_girada": "En el presente, puedes estar actuando de forma impulsiva e irresponsable. Puede que tengas conflictos con los demás debido a tu arrogancia o falta de escucha. Es importante que pienses en las consecuencias de tus acciones antes de actuar.",
         "futuro_enderezada": "En el futuro, tendrás éxito en tus planes gracias a tu valentía y determinación. Tu liderazgo natural te permitirá motivar a los demás para que te sigan en tus proyectos. Es un buen momento para asumir riesgos y luchar por lo que quieres.",
         "futuro_girada": "Si no cambias tu actitud, puedes tener problemas en el futuro. Tu arrogancia y falta de escucha pueden causarte conflictos con los demás y hacerte fracasar en tus planes. Es importante que trabajes en mejorar tu relación con los demás y en escuchar sus opiniones.",
-        "si/no_enderezada": "Sí, siempre y cuando estés dispuesto a asumir riesgos y luchar por lo que quieres. Si tienes ideas creativas y la determinación para llevarlas a cabo, tendrás éxito.",
-        "si/no_girada": "No, a menos que cambies tu actitud. Si sigues siendo impulsivo, arrogante y no escuchas las opiniones de los demás, puedes fracasar en tus planes y tener conflictos con los demás."
+        "si_no_enderezada": "Sí, siempre y cuando estés dispuesto a asumir riesgos y luchar por lo que quieres. Si tienes ideas creativas y la determinación para llevarlas a cabo, tendrás éxito.",
+        "si_no_girada": "No, a menos que cambies tu actitud. Si sigues siendo impulsivo, arrogante y no escuchas las opiniones de los demás, puedes fracasar en tus planes y tener conflictos con los demás.",
+        "ordinal":32
     },
     {
         "nombre": "Caballero de Bastos",
@@ -508,8 +540,9 @@ const tarot = [
         "presente_girada": "Es impulsivo y tiene problemas para controlar su temperamento. Puede estar tomando decisiones imprudentes.",
         "futuro_enderezada": "Alcanzará el éxito gracias a su determinación y energía. Se le presentarán nuevas oportunidades para emprender.",
         "futuro_girada": "Tendrá problemas para mantener la calma y la paciencia, lo que puede llevarlo al fracaso. Necesita trabajar en su temperamento.",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":33
     },
     {
         "nombre": "Reina de Bastos",
@@ -523,8 +556,9 @@ const tarot = [
         "presente_girada": "Puede estar actuando de manera dominante y egocéntrica en sus relaciones. Puede sentirse insegura y necesitar la validación de los demás.",
         "futuro_enderezada": "Tendrá éxito en proyectos creativos y disfrutará de la admiración y el apoyo de los demás. Será un buen momento para tomar riesgos y aventurarse en nuevas direcciones.",
         "futuro_girada": "Puede haber dificultades para establecer límites y relaciones conflictivas con los demás. Puede sentirse insegura y necesitar la validación de los demás para perseguir sus objetivos.",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":34
     },
     {
         "nombre": "Rey de Bastos",
@@ -538,8 +572,9 @@ const tarot = [
         "presente_girada": "Puede indicar una falta de confianza o motivación en el presente. También puede indicar un abuso de poder o autoridad, o una falta de respeto por los demás.",
         "futuro_enderezada": "Tendrás éxito en tus esfuerzos y lograrás tus metas con éxito. Serás un líder fuerte y apasionado, y tendrás un impacto positivo en los demás.",
         "futuro_girada": "Puede indicar una falta de ambición o motivación en el futuro, o que las cosas no saldrán como esperas debido a un abuso de poder o autoridad.",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":35
     },
     {
         "nombre": "As de Copas",
@@ -553,8 +588,9 @@ const tarot = [
         "presente_girada": "Falta de claridad emocional, bloqueo creativo",
         "futuro_enderezada": "Nuevas oportunidades de amor y felicidad, inspiración creativa",
         "futuro_girada": "Frustración emocional, falta de progreso creativo",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "Probablemente no"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "Probablemente no",
+        "ordinal":36
     },
     {
         "nombre": "Dos de copas",
@@ -568,8 +604,9 @@ const tarot = [
         "presente_girada": "Puede haber desacuerdo o falta de armonía en tus relaciones actuales.",
         "futuro_enderezada": "Habrá armonía y equilibrio emocional en tus relaciones futuras.",
         "futuro_girada": "Puede haber problemas o desacuerdos emocionales en tus relaciones futuras.",
-        "si/no_enderezada": "La respuesta es sí, hay armonía y equilibrio emocional en tus relaciones actuales o futuras.",
-        "si/no_girada": "La respuesta es no, hay desacuerdo o falta de armonía en tus relaciones actuales o futuras."
+        "si_no_enderezada": "La respuesta es sí, hay armonía y equilibrio emocional en tus relaciones actuales o futuras.",
+        "si_no_girada": "La respuesta es no, hay desacuerdo o falta de armonía en tus relaciones actuales o futuras.",
+        "ordinal":37
     },
     {
         "nombre": "Tres de Copas",
@@ -583,8 +620,9 @@ const tarot = [
         "presente_girada": "Sentimiento de soledad y falta de conexión emocional",
         "futuro_enderezada": "Futuras celebraciones y momentos de felicidad compartida",
         "futuro_girada": "Dificultades para conectar con otros, falta de alegría",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":38
     },    
     {
         "nombre": "Cuatro de Copas",
@@ -598,8 +636,9 @@ const tarot = [
         "presente_girada": "Incapacidad para encontrar satisfacción en la vida actual, tendencia a rechazar nuevas oportunidades",
         "futuro_enderezada": "Nuevas oportunidades que llevan a un mayor crecimiento personal y satisfacción emocional",
         "futuro_girada": "Falta de oportunidades o incapacidad para encontrar satisfacción en el futuro cercano",
-        "si/no_enderezada": "Indecisión, necesidad de meditar en la situación antes de tomar una decisión",
-        "si/no_girada": "Rechazo a nuevas oportunidades o incapacidad para tomar una decisión clara"
+        "si_no_enderezada": "Indecisión, necesidad de meditar en la situación antes de tomar una decisión",
+        "si_no_girada": "Rechazo a nuevas oportunidades o incapacidad para tomar una decisión clara",
+        "ordinal":39
     }, 
     {
         "nombre": "Cinco de Copas",
@@ -613,8 +652,9 @@ const tarot = [
         "presente_girada": "Aunque has pasado por un momento difícil, estás empezando a ver la luz al final del túnel y estás encontrando la manera de seguir adelante.",
         "futuro_enderezada": "Es posible que tengas que pasar por un momento difícil en el futuro cercano. Prepárate para enfrentar las emociones que conlleva y busca apoyo si lo necesitas.",
         "futuro_girada": "Aunque puede haber obstáculos en el camino, estás en un camino hacia la recuperación y la esperanza en el futuro.",
-        "si/no_enderezada": "No",
-        "si/no_girada": "No te rindas, sigue adelante."
+        "si_no_enderezada": "No",
+        "si_no_girada": "No te rindas, sigue adelante.",
+        "ordinal":40
     },
     {
         "nombre": "Seis de Copas",
@@ -628,8 +668,9 @@ const tarot = [
         "presente_girada": "Dificultad para adaptarse a los cambios, resistencia a los nuevos comienzos",
         "futuro_enderezada": "Recuperación de una vieja amistad, regresar a un lugar importante del pasado",
         "futuro_girada": "Aferrarse al pasado y resistirse al cambio, incapacidad para avanzar",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "Sí, pero sólo si dejas ir el pasado"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "Sí, pero sólo si dejas ir el pasado",
+        "ordinal":41
     },
     {
         "nombre": "Siete de Copas",
@@ -643,8 +684,9 @@ const tarot = [
         "presente_girada": "engaños, mentiras, ilusiones que se desvanecen",
         "futuro_enderezada": "ilusiones que se hacen realidad, metas alcanzadas, éxito",
         "futuro_girada": "decepciones, desilusiones, proyectos que se desvanecen",
-        "si/no_enderezada": "Sí, siempre y cuando se actúe con objetividad",
-        "si/no_girada": "No, hay que tener cuidado con las ilusiones y la falta de objetividad"
+        "si_no_enderezada": "Sí, siempre y cuando se actúe con objetividad",
+        "si_no_girada": "No, hay que tener cuidado con las ilusiones y la falta de objetividad",
+        "ordinal":42
     },
     {
         "nombre": "Ocho de Copas",
@@ -658,8 +700,9 @@ const tarot = [
         "presente_girada": "Te sientes estancado, sin dirección y con miedo al cambio",
         "futuro_enderezada": "Pronto tendrás la oportunidad de dejar algo atrás y avanzar hacia un nuevo camino",
         "futuro_girada": "Puedes estar reteniendo el cambio y las oportunidades de avanzar",
-        "si/no_enderezada": "Sí, es hora de dejar atrás algo y avanzar hacia un nuevo camino",
-        "si/no_girada": "No, no estás preparado para dejar atrás lo que te retiene"
+        "si_no_enderezada": "Sí, es hora de dejar atrás algo y avanzar hacia un nuevo camino",
+        "si_no_girada": "No, no estás preparado para dejar atrás lo que te retiene",
+        "ordinal":43
     },
     {
         "nombre": "Nueve de Copas",
@@ -673,8 +716,9 @@ const tarot = [
         "presente_girada": "Exceso, vanidad, falta de satisfacción",
         "futuro_enderezada": "Logro de deseos, éxito emocional, realización personal",
         "futuro_girada": "Falta de satisfacción, complacencia, engaño",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "Sí, pero con advertencias"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "Sí, pero con advertencias",
+        "ordinal":44
     },
     {
         "nombre": "Diez de Copas",
@@ -688,8 +732,9 @@ const tarot = [
         "presente_girada": "Discusiones familiares, falta de realización emocional, desilusión, insatisfacción",
         "futuro_enderezada": "Unión familiar, realización emocional, amor, felicidad",
         "futuro_girada": "Falta de realización emocional, desunión, discordia familiar",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":45
     },
     {
         "nombre": "Sota de Copas",
@@ -703,8 +748,9 @@ const tarot = [
         "presente_girada": "Falta de límites emocionales, inestabilidad",
         "futuro_enderezada": "Desarrollo emocional, crecimiento personal, fortalecimiento de la intuición",
         "futuro_girada": "Inmadurez emocional, exceso de emotividad, falta de límites emocionales",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No definitivo"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No definitivo",
+        "ordinal":46
     },
     {
         "nombre": "Caballero de Copas",
@@ -718,8 +764,9 @@ const tarot = [
         "presente_girada": "Falta de motivación, pasividad, manipulación emocional",
         "futuro_enderezada": "Nuevas oportunidades emocionales, romance, creatividad, sensibilidad",
         "futuro_girada": "Pérdida de la pasión, desmotivación, manipulación emocional",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":47
     },
     {
         "nombre": "Reina de Copas",
@@ -733,8 +780,9 @@ const tarot = [
         "presente_girada": "Inseguridad emocional, influencia negativa de personas tóxicas",
         "futuro_enderezada": "Amor, apoyo emocional, relaciones profundas y significativas",
         "futuro_girada": "Manipulación emocional, relaciones tóxicas, traición",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":48
     },
     {
         "nombre": "Rey de Copas",
@@ -748,8 +796,9 @@ const tarot = [
         "presente_girada": "Manipulación emocional, indecisión, falta de sinceridad",
         "futuro_enderezada": "Crecimiento emocional, estabilidad, relaciones amorosas armoniosas",
         "futuro_girada": "Desequilibrio emocional, conflictos amorosos, falta de empatía",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":49
     },                                                   
     {
         "nombre": "As de Espadas",
@@ -763,8 +812,9 @@ const tarot = [
         "presente_girada": "Estás experimentando confusión mental y no estás seguro de qué decisiones tomar, lo que te lleva a retrasos y frustración.",
         "futuro_enderezada": "Tendrás una victoria importante y nuevos comienzos gracias a una decisión importante que tomarás con claridad mental.",
         "futuro_girada": "Experimentarás una derrota importante debido a una decisión equivocada tomada bajo confusión mental.",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":50
     },
     {
         "nombre": "Dos de Espadas",
@@ -778,8 +828,9 @@ const tarot = [
         "presente_girada": "Confusión, falta de claridad, bloqueo",
         "futuro_enderezada": "Toma de decisiones importantes, equilibrio y armonía",
         "futuro_girada": "Confusión, estancamiento, falta de acción",
-        "si/no_enderezada": "No",
-        "si/no_girada": "No, pero aún es posible tomar una decisión"
+        "si_no_enderezada": "No",
+        "si_no_girada": "No, pero aún es posible tomar una decisión",
+        "ordinal":51
     },
     {
         "nombre": "Tres de Espadas",
@@ -793,8 +844,9 @@ const tarot = [
         "presente_girada": "Perdón, liberación, superación emocional",
         "futuro_enderezada": "Dolor emocional, pérdida, separación",
         "futuro_girada": "Sanación emocional, perdón, reconciliación",
-        "si/no_enderezada": "No",
-        "si/no_girada": "Sí, pero con dolor emocional"
+        "si_no_enderezada": "No",
+        "si_no_girada": "Sí, pero con dolor emocional",
+        "ordinal":52
     },
     {
         "nombre": "Cuatro de Espadas",
@@ -808,8 +860,9 @@ const tarot = [
         "presente_girada": "Falta de dirección, falta de sueño o descanso adecuados",
         "futuro_enderezada": "Pausa necesaria para afrontar futuros desafíos, tiempo de reflexión y preparación",
         "futuro_girada": "Dificultad para tomar decisiones, falta de energía y motivación",
-        "si/no_enderezada": "No",
-        "si/no_girada": "No, pero hay alternativas"
+        "si_no_enderezada": "No",
+        "si_no_girada": "No, pero hay alternativas",
+        "ordinal":53
     },
     {
         "nombre": "Cinco de Espadas",
@@ -823,8 +876,9 @@ const tarot = [
         "presente_girada": "Superación del conflicto, perdón, dejar ir",
         "futuro_enderezada": "Desacuerdo, desilusión, traición, rivalidad",
         "futuro_girada": "Perdón, reconciliación, solución pacífica",
-        "si/no_enderezada": "No",
-        "si/no_girada": "Sí, pero con concesiones"
+        "si_no_enderezada": "No",
+        "si_no_girada": "Sí, pero con concesiones",
+        "ordinal":54
     },
     {
         "nombre": "Seis de Espadas",
@@ -838,8 +892,9 @@ const tarot = [
         "presente_girada": "Retrasos, dificultades para avanzar, resistencia al cambio",
         "futuro_enderezada": "Viaje, transición, movimiento hacia una nueva fase, recuperación",
         "futuro_girada": "Dificultades para avanzar, estancamiento, resistencia al cambio",
-        "si/no_enderezada": "Sí, pero con algunas dificultades en el camino",
-        "si/no_girada": "No, no es un buen momento para avanzar o hacer cambios importantes"
+        "si_no_enderezada": "Sí, pero con algunas dificultades en el camino",
+        "si_no_girada": "No, no es un buen momento para avanzar o hacer cambios importantes",
+        "ordinal":55
     },      
     {
         "nombre": "Siete de Espadas",
@@ -853,8 +908,9 @@ const tarot = [
         "presente_girada": "Engaño, falta de ética, necesidad de ser cauteloso",
         "futuro_enderezada": "Triunfo a través de la astucia, la estrategia y la planificación cuidadosa",
         "futuro_girada": "Traición, engaño, falta de honestidad",
-        "si/no_enderezada": "No",
-        "si/no_girada": "No, pero no se descarta la posibilidad de éxito si se utiliza la astucia"
+        "si_no_enderezada": "No",
+        "si_no_girada": "No, pero no se descarta la posibilidad de éxito si se utiliza la astucia",
+        "ordinal":56
     },
     {
         "nombre": "Ocho de Espadas",
@@ -868,8 +924,9 @@ const tarot = [
         "presente_girada": "Sentirse liberado, encontrar soluciones, romper con las limitaciones, superar el miedo",
         "futuro_enderezada": "Posibilidad de encontrar soluciones y escapar de las limitaciones, necesidad de ser valiente y tomar medidas para liberarse",
         "futuro_girada": "Sentimiento de estar atrapado o limitado por un tiempo, necesidad de ser paciente y perseverar para encontrar soluciones",
-        "si/no_enderezada": "No",
-        "si/no_girada": "Sí"
+        "si_no_enderezada": "No",
+        "si_no_girada": "Sí",
+        "ordinal":57
     },
     {
         "nombre": "Nueve de Espadas",
@@ -883,8 +940,9 @@ const tarot = [
         "presente_girada": "Parálisis, miedo irracional, obsesiones",
         "futuro_enderezada": "Liberación de preocupaciones, superación de problemas, recuperación emocional",
         "futuro_girada": "Miedo y ansiedad persistentes, necesidad de ayuda profesional",
-        "si/no_enderezada": "No",
-        "si/no_girada": "No, pero no es definitivo"
+        "si_no_enderezada": "No",
+        "si_no_girada": "No, pero no es definitivo",
+        "ordinal":58
     },
     {
         "nombre": "Diez de Espadas",
@@ -898,8 +956,9 @@ const tarot = [
         "presente_girada": "Dolor, trauma, sufrimiento, miedo al cambio",
         "futuro_enderezada": "Finalización de una etapa, liberación de una carga, transición hacia un nuevo comienzo",
         "futuro_girada": "Dolor, trauma, sufrimiento, miedo al cambio",
-        "si/no_enderezada": "No",
-        "si/no_girada": "No, pero es necesario afrontar la situación"
+        "si_no_enderezada": "No",
+        "si_no_girada": "No, pero es necesario afrontar la situación",
+        "ordinal":59
     },
     {
         "nombre": "Sota de Espadas",
@@ -913,8 +972,9 @@ const tarot = [
         "presente_girada": "Estrategias engañosas, malas intenciones, traición",
         "futuro_enderezada": "Nuevas ideas, proyectos exitosos, progreso intelectual",
         "futuro_girada": "Problemas de comunicación, engaños, deshonestidad",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":60
     },
     {
         "nombre": "Caballero de Espadas",
@@ -928,8 +988,9 @@ const tarot = [
         "presente_girada": "Acción impulsiva, agresión, falta de reflexión",
         "futuro_enderezada": "Triunfo sobre la adversidad, éxito, coraje para enfrentar nuevos retos",
         "futuro_girada": "Conflictos, obstáculos, falta de coraje para enfrentar retos",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":61
     },
     {
         "nombre": "Reina de Espadas",
@@ -943,8 +1004,9 @@ const tarot = [
         "presente_girada": "Falta de claridad mental, emociones confusas, pensamiento irracional",
         "futuro_enderezada": "Pensamiento claro y objetivo, resolución de problemas, habilidades analíticas",
         "futuro_girada": "Falta de dirección, confusión, manipulación emocional",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":62
     },
     {
         "nombre": "Rey de Espadas",
@@ -958,8 +1020,9 @@ const tarot = [
         "presente_girada": "Crueldad, falta de empatía, abuso de poder",
         "futuro_enderezada": "Uso efectivo de la lógica y la razón, toma de decisiones justas, liderazgo efectivo",
         "futuro_girada": "Abuso de poder, toma de decisiones crueles, falta de empatía",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":63
     },
     {
         "nombre": "As de Oros",
@@ -973,8 +1036,9 @@ const tarot = [
         "presente_girada": "Pérdida de oportunidades financieras, falta de enfoque en objetivos a largo plazo",
         "futuro_enderezada": "Prosperidad financiera, éxito en proyectos a largo plazo, estabilidad",
         "futuro_girada": "Falta de visión a largo plazo, pérdida de oportunidades financieras, avaricia",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":64
     },
     {
         "nombre": "Dos de Oros",
@@ -988,8 +1052,9 @@ const tarot = [
         "presente_girada": "Inestabilidad, falta de enfoque en áreas importantes de la vida",
         "futuro_enderezada": "Habilidad para encontrar un equilibrio en situaciones difíciles, adaptabilidad en cualquier situación",
         "futuro_girada": "Desorden, inestabilidad, falta de enfoque en situaciones difíciles",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":65
     },
     {
         "nombre": "Tres de Oros",
@@ -1003,8 +1068,9 @@ const tarot = [
         "presente_girada": "Falta de colaboración y desacuerdo en la dirección de un proyecto",
         "futuro_enderezada": "Colaboración y trabajo en equipo para lograr grandes cosas",
         "futuro_girada": "Proyectos que fracasan debido a la falta de colaboración y coordinación",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":66
     },
     {
         "nombre": "Cuatro de Oros",
@@ -1018,8 +1084,9 @@ const tarot = [
         "presente_girada": "Dificultades financieras, pérdida de recursos, avaricia",
         "futuro_enderezada": "Estabilidad financiera a largo plazo, buenos negocios, inversiones sólidas",
         "futuro_girada": "Pérdida de dinero, malas decisiones financieras, avaricia desmesurada",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":67
     },
     {
         "nombre": "Cinco de Oros",
@@ -1033,8 +1100,9 @@ const tarot = [
         "presente_girada": "Posibilidad de superar las dificultades, ayuda y apoyo de otras personas, nuevas oportunidades y proyectos",
         "futuro_enderezada": "Dificultades financieras y económicas en el futuro, posibles pérdidas y momentos de soledad y desesperanza",
         "futuro_girada": "Superación de las dificultades, ayuda y apoyo de amigos y familiares, nuevos proyectos y oportunidades",
-        "si/no_enderezada": "No",
-        "si/no_girada": "Sí, pero con dificultades"
+        "si_no_enderezada": "No",
+        "si_no_girada": "Sí, pero con dificultades",
+        "ordinal":68
     },
     {
         "nombre": "Seis de Oros",
@@ -1048,8 +1116,9 @@ const tarot = [
         "presente_girada": "Egoísmo, falta de solidaridad, problemas financieros",
         "futuro_enderezada": "Recompensas, prosperidad financiera, reciprocidad en las relaciones",
         "futuro_girada": "Pérdidas financieras, desequilibrio en las relaciones",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":69
     },
     {
         "nombre": "Siete de Oros",
@@ -1063,8 +1132,9 @@ const tarot = [
         "presente_girada": "Falta de compromiso, falta de planificación, falta de esfuerzo",
         "futuro_enderezada": "Inversión a largo plazo, recompensas del trabajo duro, éxito en proyectos futuros",
         "futuro_girada": "Fracaso en proyectos a largo plazo, falta de recompensas, pérdida de paciencia",
-        "si/no_enderezada": "Sí, pero requerirá paciencia y trabajo duro",
-        "si/no_girada": "No, debido a la falta de planificación y compromiso"
+        "si_no_enderezada": "Sí, pero requerirá paciencia y trabajo duro",
+        "si_no_girada": "No, debido a la falta de planificación y compromiso",
+        "ordinal":70
     },
     {
         "nombre": "Ocho de Oros",
@@ -1078,8 +1148,9 @@ const tarot = [
         "presente_girada": "Distracción, falta de enfoque en el trabajo, falta de progreso",
         "futuro_enderezada": "Compromiso y dedicación en el trabajo o en proyectos personales, avances significativos en habilidades y aprendizaje",
         "futuro_girada": "Falta de enfoque, distracción, falta de progreso o éxito",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":71
     },        
     {
         "nombre": "Nueve de Oros",
@@ -1093,8 +1164,9 @@ const tarot = [
         "presente_girada": "Avaricia, falta de gratitud, pérdida de riqueza",
         "futuro_enderezada": "Riqueza, independencia financiera, éxito material",
         "futuro_girada": "Pérdida financiera, inseguridad, dependencia",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":72
     },
     {
         "nombre": "Diez de Oros",
@@ -1108,8 +1180,9 @@ const tarot = [
         "presente_girada": "Falta de dinero, inestabilidad financiera, preocupaciones monetarias",
         "futuro_enderezada": "Riqueza, éxito financiero, seguridad económica",
         "futuro_girada": "Pérdida financiera, fracaso económico, inestabilidad monetaria",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":73
     },
     {
         "nombre": "Sota de Oros",
@@ -1123,8 +1196,9 @@ const tarot = [
         "presente_girada": "Pereza, falta de dirección, desmotivación",
         "futuro_enderezada": "Oportunidades financieras, crecimiento profesional, éxito en los negocios",
         "futuro_girada": "Fracaso financiero, falta de ambición, mala gestión",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":74
     },    
     {
         "nombre": "Caballero de Oros",
@@ -1138,8 +1212,9 @@ const tarot = [
         "presente_girada": "Desorden financiero, falta de dirección",
         "futuro_enderezada": "Éxito financiero, logro de metas, enfoque en la carrera",
         "futuro_girada": "Pérdida financiera, fracaso profesional",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":75
     },
     {
         "nombre": "Reina de Oros",
@@ -1153,8 +1228,9 @@ const tarot = [
         "presente_girada": "Codicia, avaricia, falta de gratitud",
         "futuro_enderezada": "Estabilidad financiera, prosperidad, seguridad material",
         "futuro_girada": "Pérdida financiera, malas inversiones, inseguridad material",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":76
     },
     {
         "nombre": "Rey de Oros",
@@ -1168,8 +1244,9 @@ const tarot = [
         "presente_girada": "Avaricia, falta de ética, exceso de materialismo",
         "futuro_enderezada": "Seguridad financiera a largo plazo, éxito empresarial, estabilidad",
         "futuro_girada": "Pérdida financiera, mala gestión empresarial, falta de ética",
-        "si/no_enderezada": "Sí",
-        "si/no_girada": "No"
+        "si_no_enderezada": "Sí",
+        "si_no_girada": "No",
+        "ordinal":77
     }         
 ];
 
