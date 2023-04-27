@@ -15,7 +15,7 @@ body{
     background-color: rgb(109, 124, 109);             
 }
 
-h1, h2, h3{
+h1, h2, h3, h6{
     color: white;
     text-align: center;
     margin: 10px;
@@ -50,10 +50,25 @@ h1, h2, h3{
     position: relative;
 }
 
-.lectura{
-    width: 33vw;
-    padding: 10px;
+.lectura{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    border: 1px solid lightgray;
+    border-radius: 5px;
 }
+
+.lectura h6{
+    font-style: italic;
+}
+
+.lectura p{
+    max-width: calc(var(--carta_w)*2);
+}
+
 
 .augurio div{
     z-index: -1;    

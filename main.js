@@ -25,10 +25,15 @@ const soltar = (e) => {
 
 const pintaLectura = (lectura) =>{
     elemento = document.getElementsByClassName("lectura")[0];
-    titulo = `<h3> Consulta de Sí o No: </h3>`;
-    queSalio = `<p> Tu carta es ${lectura[0]} y viene ${lectura[1]}.</p>`;
-    queEs = `<p> Rasgos sugeridos: ${lectura[2]} </p>`;
-    queDice = `<p> Para esta tirada la carta nos dice... ${lectura[3]} </p>`;
+    lista = lectura[2].split(",");
+    listaHTML="";
+    lista.forEach(rasgo => {
+       listaHTML = listaHTML + `<li> ${rasgo.charAt(0).toUpperCase().concat(rasgo.substr(1))} </li>`
+    });     
+    titulo = `<h6> Responde a: ¿Sí o No? </h6> <h2> ${lectura[0]}</h2> <h3> carta ${lectura[1]} </h3>`;
+    queSalio = `<h6> Habla de: </h6>`;
+    queEs = `<ul> ${listaHTML} </ul>`;
+    queDice = `<h6> Entonces... </h6> <p>${lectura[3]} </p>`;
     elemento.innerHTML = titulo + queSalio + queEs + queDice;
 }
 
