@@ -25,7 +25,7 @@ const soltar = (e) => {
 
 const pintaLectura = (lectura) =>{
     elemento = document.getElementsByClassName("lectura")[0];
-    lista = lectura[2].split(",");
+    lista = lectura[2].split(", ");
     listaHTML="";
     lista.forEach(rasgo => {
        listaHTML = listaHTML + `<li> ${rasgo.charAt(0).toUpperCase().concat(rasgo.substr(1))} </li>`
