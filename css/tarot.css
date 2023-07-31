@@ -23,10 +23,11 @@ h1, h2, h3, h6{
 
 #tapete{
     
-    height: 100vh;
+    margin-top: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;       
+    justify-content: center;     
+    flex-wrap: wrap;  
 }
 
 .carta{
@@ -40,6 +41,7 @@ h1, h2, h3, h6{
     position: absolute;
     top: 0px;
     left: 0px;
+    transition: .5s ease;
 }
 
 .augurio, #zonaMazo{
@@ -50,7 +52,19 @@ h1, h2, h3, h6{
     position: relative;
 }
 
-.lectura{    
+.lectura{
+    
+    position: absolute;
+   
+    top: 0px;
+    left: 185px;
+    
+    width: calc(var(--carta_w)*3);
+    opacity: 0;
+    transition: .5s ease;
+    background-color: brown;
+    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,6 +83,10 @@ h1, h2, h3, h6{
     max-width: calc(var(--carta_w)*2);
 }
 
+.augurio:hover .lectura{
+    opacity: 1;
+    transition-delay: .3s;
+  }
 
 .augurio div{
     z-index: -1;    

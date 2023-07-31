@@ -16,11 +16,19 @@ const soltar = (e) => {
     // enseña el elemento    
     draggable.classList.remove('hide');
     draggable.classList.remove('desconocida');
-    
+
     // lee el augurio     
     lectura = leeCarta(draggable);
     pintaLectura(lectura);
     console.log(draggable)
+
+    /* Patrón para impedir nuevos arrastres al mismo elemento. Se puede hacer con el drop también.
+
+    // impide que se arrastre nada más encima
+    e.target.removeEventListener('dragover',allowDrop)
+    
+    */
+    
 }
 
 const pintaLectura = (lectura) =>{
