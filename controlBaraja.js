@@ -75,7 +75,7 @@ const leeCarta = (carta) =>{
     Características generales: ${elegida.girada? elegida.rasgos_girada : elegida.rasgos_enderezada} 
     La respuesta sugerida para esta consulta es: ${elegida.girada? elegida.si_no_girada:elegida.si_no_enderezada}`*/
     let nombre = elegida.nombre;
-    let girada = elegida.girada? "girada" : "enderezada";
+    let girada = elegida.girada? "del revés" : "del derecho";
     let rasgos = elegida.girada? elegida.rasgos_girada : elegida.rasgos_enderezada;
     let lectura = elegida.girada? elegida.si_no_girada:elegida.si_no_enderezada
     let result = [nombre, girada, rasgos, lectura]

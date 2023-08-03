@@ -16,6 +16,7 @@ const soltar = (e) => {
     // enseña el elemento    
     draggable.classList.remove('hide');
     draggable.classList.remove('desconocida');
+    e.target.classList.add('poblado')
 
     // lee el augurio     
     lectura = leeCarta(draggable);
@@ -38,10 +39,10 @@ const pintaLectura = (lectura) =>{
     lista.forEach(rasgo => {
        listaHTML = listaHTML + `<li> ${rasgo.charAt(0).toUpperCase().concat(rasgo.substr(1))} </li>`
     });     
-    titulo = `<h6> Responde a: ¿Sí o No? </h6> <h2> ${lectura[0]}</h2> <h3> carta ${lectura[1]} </h3>`;
-    queSalio = `<h6> Habla de: </h6>`;
+    titulo = `<h3> ${lectura[0]}</h3> `;
+    queSalio = `<h6> ${lectura[1]} trae:</h6>`;
     queEs = `<ul> ${listaHTML} </ul>`;
-    queDice = `<h6> Entonces... </h6> <p>${lectura[3]} </p>`;
+    queDice = `<h6> Dice que ... </h6> <p>${lectura[3]} </p> <p class="filigrana">✵</p>`;
     elemento.innerHTML = titulo + queSalio + queEs + queDice;
 }
 

@@ -155,8 +155,8 @@ const tarot = [
         "presente_girada": "Te sientes solo y aislado, incapaz de encontrar la orientación adecuada en la vida, desconectado de tus valores internos.",
         "futuro_enderezada": "Necesitarás buscar respuestas internas y sabiduría para tomar decisiones importantes en el futuro. Confía en tus propios instintos y guía interior.",
         "futuro_girada": "Tendrás dificultades para encontrar el camino correcto en la vida y es posible que te sientas abrumado por la soledad y el aislamiento.",
-        "si_no_enderezada": "Esta carta indica la necesidad de tiempo para reflexionar y buscar la sabiduría interior antes de tomar una decisión importante. La respuesta puede ser sí, siempre y cuando confíes en tu propio juicio.",
-        "si_no_girada": "Esta carta indica un período de soledad y desconexión emocional que dificultará la toma de decisiones. La respuesta puede ser no, a menos que tomes el tiempo necesario para conectarte contigo mismo y encontrar tu propia guía interna.",
+        "si_no_enderezada": "Si. Debes confiar en tu propio juicio.",
+        "si_no_girada": "No. Para. Reflexiona y revisa tu opinión sobre el asunto.",
         "ordinal":9
     },
     {
